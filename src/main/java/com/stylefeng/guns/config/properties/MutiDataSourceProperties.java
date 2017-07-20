@@ -18,7 +18,7 @@ public class MutiDataSourceProperties {
 
     private String username = "root";
 
-    private String password = "root";
+    private String password = "111111";
 
     public void config(DruidDataSource dataSource) {
         dataSource.setUrl(url);
